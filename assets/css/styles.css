@@ -1,0 +1,52 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* Projects */
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5,
+.project-6 {
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+.project-1 {
+    background-image: url('../images/project-1.jpg');
+}
+.project-2 {
+    background-image: url('../images/project-2.jpg');
+}
+.project-3 {
+    background-image: url('../images/project-3.jpg');
+}
+.project-4 {
+    background-image: url('../images/project-4.jpg');
+}
+.project-5 {
+    background-image: url('../images/project-5.jpg');
+}
+.project-6 {
+    background-image: url('../images/project-6.jpg');
+}
