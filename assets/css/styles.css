@@ -12,8 +12,8 @@
 /* Utilities */
 :root {
     /* Color Variables */
-    --clr-accent: #ff9fdb;
-    --clr-dark-blue: #12002f;
+    --clr-accent: #5b49d0;
+    --clr-dark: #12002f;
     --clr-white: #fff;
     --clr-dark-gray: #313131;
     --clr-filter: #9b75d7a;
@@ -84,7 +84,7 @@
   min-height: 100vh;
   display: block;
   z-index: 98;
-  background-color: var(--clr-dark-blue);
+  background-color: var(--clr-dark-gray);
   padding-top: 8rem;
   transition: 0.4s;
 }
@@ -100,13 +100,16 @@
   margin: 0 auto 1rem;
   text-align: center;
   padding: 0.75rem 1rem;
-  background-color: #1f103f;
+  background-color: var(--clr-dark-gray);
+  border: 1px solid var(--clr-white);
   color: var(--clr-white);
   text-decoration: none;
+  border-radius: 5px;
 }
 
 .mobile-nav a:hover {
-  background-color: #24104f;
+  background-color: var(--clr-white);
+  color: var(--clr-dark-gray);
 }
 
 @media (min-width: 768px) {
@@ -201,7 +204,7 @@ header .container nav a {
 }
 
 .is-scrolling {
-  background-color: var(--clr-dark-blue);
+  background-color: var(--clr-dark-gray);
 }
 
 .is-scrolling .container {
@@ -230,8 +233,8 @@ header .container nav a {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background-color: var(--clr-dark-blue);
-  opacity: 0.7;
+  background-color: var(--clr-dark-gray);
+  opacity: 0.8;
 }
 
 .banner .container {
@@ -403,7 +406,8 @@ header .container nav a {
 }
 
 .projects .projects-grid .project:hover .content {
-  opacity: 1;
+  background-color: var(--clr-dark-gray);
+  opacity: 0.8;
 }
 
 .projects .center {
