@@ -216,7 +216,7 @@ header .container nav a {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/header-2.jpg");
   background-position: top right;
   background-size: cover;
 }
